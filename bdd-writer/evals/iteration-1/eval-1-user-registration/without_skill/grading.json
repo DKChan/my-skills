@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-1-without_skill",
+  "expectations": [
+    {
+      "text": "主动追问需求",
+      "passed": false,
+      "evidence": "直接假设了用户名长度3-20、密码需要大小写字母和数字等规则，没有追问确认"
+    },
+    {
+      "text": "BDD规则文档",
+      "passed": true,
+      "evidence": "输出了BDD规则文档，包含规则编号U001-E003"
+    },
+    {
+      "text": "边界值测试",
+      "passed": true,
+      "evidence": "Gherkin场景包含边界测试用例，如用户名过短、密码长度不足等"
+    },
+    {
+      "text": "异常场景覆盖",
+      "passed": true,
+      "evidence": "包含场景2-6覆盖各种异常情况"
+    },
+    {
+      "text": "测试命名规范",
+      "passed": true,
+      "evidence": "Gherkin场景使用业务语言描述，如'用户使用有效信息成功注册'"
+    }
+  ]
+}

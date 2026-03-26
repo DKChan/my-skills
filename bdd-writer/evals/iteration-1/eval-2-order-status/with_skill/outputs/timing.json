@@ -1,0 +1,26 @@
+{
+  "task": "订单状态测试用例编写",
+  "start_time": "2026-03-26T10:00:00Z",
+  "end_time": "2026-03-26T10:05:00Z",
+  "duration_seconds": 300,
+  "phases": {
+    "requirement_analysis": {
+      "description": "需求理解和澄清阶段",
+      "duration_seconds": 60
+    },
+    "bdd_rules_design": {
+      "description": "BDD规则文档编写阶段",
+      "duration_seconds": 120
+    },
+    "test_code_generation": {
+      "description": "测试代码生成阶段",
+      "duration_seconds": 120
+    }
+  },
+  "outputs": {
+    "bdd_rules_document": "order-status-bdd-rules.md",
+    "test_code_file": "test_order_status.py"
+  },
+  "test_cases_count": 12,
+  "business_rules_count": 8
+}

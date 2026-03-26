@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-2-with_skill",
+  "expectations": [
+    {
+      "text": "主动追问状态流转规则",
+      "passed": true,
+      "evidence": "BDD规则文档包含完整的状态机图，定义了合法状态转换和终态规则"
+    },
+    {
+      "text": "BDD规则文档",
+      "passed": true,
+      "evidence": "输出包含BR-1到BR-8业务规则，涵盖状态枚举、初始状态、转换规则、终态不可变等"
+    },
+    {
+      "text": "非法状态转换测试",
+      "passed": true,
+      "evidence": "测试场景S6-S9覆盖非法状态转换，如已支付订单尝试取消、已发货订单尝试支付等"
+    },
+    {
+      "text": "完整状态路径测试",
+      "passed": true,
+      "evidence": "测试场景S1-S5覆盖完整状态流转路径"
+    },
+    {
+      "text": "状态前置条件",
+      "passed": true,
+      "evidence": "BR-3到BR-6明确定义了每个状态转换的前置条件"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "skill": "bdd-writer",
+  "task": "用户注册功能测试",
+  "start_time": "2026-03-26T00:00:00Z",
+  "end_time": "2026-03-26T00:00:10Z",
+  "duration_seconds": 10,
+  "phases": {
+    "requirement_analysis": {
+      "description": "需求理解与分析",
+      "duration_seconds": 2
+    },
+    "bdd_rules_design": {
+      "description": "BDD规则文档设计",
+      "duration_seconds": 4
+    },
+    "test_code_generation": {
+      "description": "测试代码生成",
+      "duration_seconds": 4
+    }
+  },
+  "outputs": [
+    {
+      "file": "user-registration-bdd-rules.md",
+      "type": "bdd_rules",
+      "description": "用户注册功能BDD规则文档"
+    },
+    {
+      "file": "test_user_registration.py",
+      "type": "test_code",
+      "description": "pytest测试代码文件"
+    }
+  ]
+}

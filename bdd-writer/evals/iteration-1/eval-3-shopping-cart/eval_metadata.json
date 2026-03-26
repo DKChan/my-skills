@@ -1,0 +1,32 @@
+{
+  "eval_id": 3,
+  "eval_name": "shopping-cart",
+  "prompt": "购物车结算功能，需要测试价格计算逻辑，用 Go 语言",
+  "assertions": [
+    {
+      "name": "主动追问价格计算规则",
+      "description": "应该追问价格计算的具体业务规则（折扣、优惠、税费等）",
+      "check": "输出中是否包含价格计算规则的追问"
+    },
+    {
+      "name": "使用Go语言",
+      "description": "测试代码应使用Go语言和testing/testify框架",
+      "check": "测试代码是否为Go语言格式"
+    },
+    {
+      "name": "BDD规则文档",
+      "description": "应该先输出BDD规则文档",
+      "check": "是否存在价格计算相关的业务规则文档"
+    },
+    {
+      "name": "数值精度测试",
+      "description": "金额计算测试应包含精度/舍入测试",
+      "check": "测试代码是否包含精度相关的测试"
+    },
+    {
+      "name": "边界值测试",
+      "description": "测试应包含边界值（空购物车、最大数量、零价格等）",
+      "check": "测试代码是否包含边界值测试"
+    }
+  ]
+}

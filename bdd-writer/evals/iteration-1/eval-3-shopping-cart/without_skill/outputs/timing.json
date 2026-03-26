@@ -1,0 +1,44 @@
+{
+  "task": "购物车结算功能价格计算逻辑测试",
+  "language": "Go",
+  "created_at": "2026-03-26T15:00:00Z",
+  "files_created": [
+    "cart.go",
+    "calculator.go",
+    "calculator_test.go",
+    "go.mod"
+  ],
+  "test_cases": {
+    "total": 15,
+    "categories": [
+      "空购物车测试",
+      "单商品测试",
+      "多商品测试",
+      "免运费测试",
+      "分类折扣测试",
+      "批量折扣测试",
+      "会员折扣测试",
+      "优惠券折扣测试",
+      "组合折扣测试",
+      "税费计算测试",
+      "总价计算测试",
+      "节省明细测试",
+      "零数量测试",
+      "小数精度测试",
+      "负价格测试"
+    ]
+  },
+  "test_framework": "testify/assert",
+  "coverage_areas": [
+    "基础价格计算",
+    "折扣叠加逻辑",
+    "税费计算",
+    "运费计算",
+    "边界条件处理"
+  ],
+  "timing": {
+    "start_time": "2026-03-26T15:00:00Z",
+    "end_time": "2026-03-26T15:00:05Z",
+    "duration_seconds": 5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-2-without_skill",
+  "expectations": [
+    {
+      "text": "主动追问状态流转规则",
+      "passed": false,
+      "evidence": "直接假设了状态转换规则，没有追问确认哪些状态可以转换到哪些状态"
+    },
+    {
+      "text": "BDD规则文档",
+      "passed": false,
+      "evidence": "没有输出BDD规则文档，直接输出测试代码"
+    },
+    {
+      "text": "非法状态转换测试",
+      "passed": true,
+      "evidence": "测试代码包含大量非法状态转换测试，如test_cannot_pay_paid_order等"
+    },
+    {
+      "text": "完整状态路径测试",
+      "passed": true,
+      "evidence": "包含test_full_order_lifecycle测试完整生命周期"
+    },
+    {
+      "text": "状态前置条件",
+      "passed": true,
+      "evidence": "测试代码验证了每个操作的前置状态条件"
+    }
+  ]
+}

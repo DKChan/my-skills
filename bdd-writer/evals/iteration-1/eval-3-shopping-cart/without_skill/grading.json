@@ -1,0 +1,30 @@
+{
+  "run_id": "eval-3-without_skill",
+  "expectations": [
+    {
+      "text": "主动追问价格计算规则",
+      "passed": false,
+      "evidence": "直接假设了税率8%、免运费门槛99元、会员折扣5%等规则，没有追问确认"
+    },
+    {
+      "text": "使用Go语言",
+      "passed": true,
+      "evidence": "输出Go语言代码，使用decimal库处理精度"
+    },
+    {
+      "text": "BDD规则文档",
+      "passed": false,
+      "evidence": "没有输出BDD规则文档，直接输出实现代码"
+    },
+    {
+      "text": "数值精度测试",
+      "passed": false,
+      "evidence": "没有输出测试代码"
+    },
+    {
+      "text": "边界值测试",
+      "passed": false,
+      "evidence": "没有输出测试代码"
+    }
+  ]
+}
